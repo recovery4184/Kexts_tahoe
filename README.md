@@ -67,6 +67,41 @@ git push origin feature/your-feature-name
 
 5. Open a Pull Request
 
+### JSX Code
+
+class Hello extends Component {
+  render() {
+    return <h1>Hello, {this.props.name}!</h1>;
+  }
+}
+
+function Jello({ name }) {
+  return <h1>Jello, {name}!</h1>;
+}
+
+export default function App() {
+  return (
+    <>
+      <Hello name="Sarah" />
+      <Jello name="Connor" />
+    </>
+  );
+}
+
+const Wrapper = (props) => {
+  return (
+    <div style={{ backgroundColor: 'lightgray', padding: '20px', border: '1px solid black' }}>
+      <h2>Inside the Wrapper:</h2>
+      {props.children}
+    </div>
+  );
+};
+<Wrapper>
+  <p>Paragraph</p>
+  <p>Another one!</p>
+</Wrapper>
+
+Valid JSX tag names are valid JSX identifiers (variable names), which mean that hypenated XML and HTML tags can be used without issue writing ECMAScript grammar and notation. If–else statements cannot be used inside JSX but conditional expressions can be used instead like TSX OOP, due Transpilers such as Babel offer the ability to target function calls other than those from React where HTML/XML "tags" may be available. For example, the HTML tags in React come from react-dom, but the LLM VM is targeting WebFuse/Surfly via ttawebtop.cgi which is PWC Ajax.
 
 
 ## Project Structure
