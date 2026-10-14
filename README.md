@@ -1,31 +1,5 @@
-# Web simulation of MacOS
+# macOS\'s BYOVM via LLM
 ![preview0](preview/preview.png)
-![preview0](preview/preview0.png)
-![preview0](preview/prev.png)
-![preview1](preview/preview1.png)
-
-
-A fully interactive macOS-style web simulator built with React — complete with a start up and setup screens, boot sequence, lock screen, desktop environment, draggable app windows, a working dock, and real macOS UI polish.
-
----
-
-## Features
-
-- **Boot & Lock Screen** — Power-on animation, lock screen with clock, swipe-to-unlock, and auto-lock after 1 minute of inactivity
-- **Editable Lock Screen Profile** — Click the avatar or name on the lock screen to upload a custom photo and rename the user; persisted in localStorage
-- **Desktop Environment** — Draggable/resizable windows, right-click context menu, desktop folders and file creation
-- **Dock** — Animated magnification effect on hover, app open/minimize indicators, bounce animation on launch
-- **Top Bar** — Dynamic app title, Apple menu with lock/sleep/shutdown, dropdown menus, live clock
-- **Finder** — Simulated file system with Downloads, Desktop, Documents, and Pictures folders; grid/list view
-- **Safari** — Built-in browser with navigation controls
-- **Terminal** — Functional terminal emulator
-- **Photos / Gallery** — Image gallery with wallpaper setting support
-- **Notes** — Apple Notes-style app with iCloud folders, tags, search, and a full editor; auto-saves to localStorage
-- **Music / Spotify** — Spotify-integrated music player
-- **Settings** — macOS System Settings replica with About This Mac overview
-- **Wallpaper Customization** — Change desktop and lock screen wallpapers from the Gallery app
-
----
 
 ## Tech Stack
 
@@ -53,8 +27,8 @@ A fully interactive macOS-style web simulator built with React — complete with
 ### Installation
 
 ```bash
-git clone https://github.com/LikhithSP/MacOS-Web-Simulator.git
-cd MacOS-Web-Simulator
+git clone https://github.com/recovery4184/Kexts_tahoe.git
+cd Kexts_tahoe
 npm install
 ```
 
@@ -128,4 +102,4 @@ src/
 
 ## License
 
-MIT
+MIT, GPLv2,3
