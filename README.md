@@ -1,5 +1,7 @@
 # macOS\'s BYOVM via LLM
 ![preview0](preview/preview.png)
+<img width="1323" height="646" alt="image" src="https://github.com/user-attachments/assets/6ee81917-5af2-40a4-8253-f5ff9f88a44f" />
+
 
 ## Tech Stack
 
