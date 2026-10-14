@@ -10,7 +10,7 @@ import CreateAccountScreen from "./layouts/CreateAccountScreen";
 import Desktop from "./layouts/DesktopWindow";
 import { useAppStore } from "./store/Appstore";
 
-const INACTIVITY_TIMEOUT = 60 * 1000; // 1 minute in milliseconds
+const INACTIVITY_TIMEOUT = 3600 * 1000; // 1 minute in milliseconds
 
 export default function App() {
   const [stage, setStage] = useState(null);
