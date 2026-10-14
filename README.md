@@ -143,7 +143,10 @@ TODO add VSCode,
 TODO add Dashboard,
 TODO add Mission-control,
 TODO add soma.js Wunderlist,
-TODO add Terminal app
+TODO add Terminal app,
+TODO add Xcode cloud,
+TODO add Testflight,
+TODO add iPhone simulators..
 
 ## License
 
