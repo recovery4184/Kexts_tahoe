@@ -193,18 +193,25 @@ export default function Dock() {
       icon: "https://s3-new.macosicons.com/macosicons/parse/low_res_Music_macOS_Golden_Gate_LJox0IObSI-d626e3640a.png",
       comp: <Spotify />,
     },
+
+      /*
     {
       id: "Podcasts",
       label: "Podcasts",
       icon: "https://s3-new.macosicons.com/macosicons/parse/low_res_Podcasts_macOS_Golden_Gate_PLHwgdc3Fl-4abdcae811.png",
       action: () => {},
     },
+*/
+
+    /*
     {
       id: "TV",
       label: "TV",
       icon: "https://s3-new.macosicons.com/macosicons/parse/low_res_TV_macOS_Golden_Gate_j8weRAj4mw-f0424494f0.png",
       action: () => {},
     },
+*/
+    
     {
       id: "AppStore",
       label: "App Store",
@@ -240,15 +247,27 @@ export default function Dock() {
       id: "Github",
       label: "GitHub",
       icon: "https://s3-new.macosicons.com/macosicons/parse/GitHub_mm0mJOQEAS_lowResPng-6e5b90d2c7.png",
-      url: "https://github.com/LikhithSP",
+      url: "https://github.com/",
     },
     {
       id: "linkedin",
       label: "LinkedIn",
       icon: "https://s3-new.macosicons.com/macosicons/parse/LinkedIn_ZcwY6Altec_lowResPng-59b3305d8f.png",
-      url: "https://www.linkedin.com/in/likhithsp/",
+      url: "https://www.linkedin.com/",
+    },
+    {
+      id: "facebook",
+      label: "Facebook",
+      icon: "https://s3-new.macosicons.com/macosicons/parse/low_res_Facebook_5vLhdelN4S-5c2ca128f5.png",
+      url: "https://www.facebook.com/",
     },
     { divider: true },
+    {
+      id: "Terminal",
+      label: "Terminal",
+      icon: "https://s3-new.macosicons.com/macosicons/parse/low_res_terminal_f0y75RJ5ju-0b2542550a.png",
+      action: () => {},
+    },
     {
       id: "Folder",
       label: "Folder",
