@@ -146,7 +146,9 @@ TODO add soma.js Wunderlist,
 TODO add Terminal app,
 TODO add Xcode cloud,
 TODO add Testflight,
-TODO add iPhone simulators..
+TODO add iPhone simulators,
+TODO add Diagramo,
+...
 
 ## License
 
