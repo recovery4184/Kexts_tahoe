@@ -137,6 +137,14 @@ src/
 
 ---
 
+## Future dev roadmap
+
+TODO add VSCode,
+TODO add Dashboard,
+TODO add Mission-control,
+TODO add soma.js Wunderlist,
+TODO add Terminal app
+
 ## License
 
 MIT, GPLv2,3
