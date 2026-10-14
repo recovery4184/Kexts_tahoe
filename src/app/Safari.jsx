@@ -139,7 +139,7 @@ export function Safari({ initialUrl = "https://www.google.com/webhp?igu=1", wind
   };
 
   const goHome = () => {
-    const homeUrl = "https://www.google.com/webhp?igu=1";
+    const homeUrl = "https://ahoooysearchengine.blogspot.com/";
     if (currentUrl === homeUrl) {
       refresh();
     } else {
