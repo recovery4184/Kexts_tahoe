@@ -127,12 +127,12 @@ export default function Dock() {
       icon: "https://s3-new.macosicons.com/macosicons/parse/Safari__MacOS_Tahoe__utug9Rt8g6_lowResPng-e86f84b6e9.png",
       comp: <Safari />,
     },
-    {
+    /* {
       id: "Messages",
       label: "Messages",
       icon: "https://s3-new.macosicons.com/macosicons/parse/low_res_Messages_macOS_Golden_Gate_ow94O6GAvP-2934473a5d.png",
       comp: <Messages />,
-    },
+    }, */
     {
       id: "Mail",
       label: "Mail",
@@ -151,12 +151,12 @@ export default function Dock() {
       icon: "https://s3-new.macosicons.com/macosicons/parse/low_res_Photos_macOS_Golden_Gate_mxVHKSuSHM-06d7e83102.png",
       comp: <MacGallery />,
     },
-    {
+    /* {
       id: "FaceTime",
       label: "FaceTime",
       icon: "https://s3-new.macosicons.com/macosicons/parse/low_res_Facetime_macOS_Golden_Gate_Qxnt8DtlwP-e0839d42d8.png",
       comp: <FaceTime />,
-    },
+    }, */
     {
       id: "Phone",
       label: "Phone",
@@ -211,14 +211,14 @@ export default function Dock() {
       action: () => {},
     },
 */
-    
+    /*
     {
       id: "AppStore",
       label: "App Store",
       icon: "https://s3-new.macosicons.com/macosicons/parse/App_Store__MacOS_Tahoe__ZTpqalXxE3_lowResPng-b755fc1237.png",
       action: () => {},
-    },
-    {
+    }, */
+    /*&{
       id: "Pages",
       label: "Pages",
       icon: "https://s3-new.macosicons.com/macosicons/parse/Pages__Apple_Creative_Studio__hHeqYyTXZ3_lowResPng-7a5fbcd210.png",
@@ -235,7 +235,7 @@ export default function Dock() {
       label: "Keynote",
       icon: "https://s3-new.macosicons.com/macosicons/parse/Keynote__Apple_Creative_Studio__SlTcHVkQP5_lowResPng-aac0878b95.png",
       action: () => {},
-    },
+    }, */
     {
       id: "Settings",
       label: "Settings",
@@ -243,7 +243,7 @@ export default function Dock() {
       comp: <Settings />,
     },
     { divider: true },
-    {
+    /* {
       id: "Github",
       label: "GitHub",
       icon: "https://s3-new.macosicons.com/macosicons/parse/GitHub_mm0mJOQEAS_lowResPng-6e5b90d2c7.png",
@@ -267,7 +267,7 @@ export default function Dock() {
       label: "Terminal",
       icon: "https://s3-new.macosicons.com/macosicons/parse/low_res_terminal_f0y75RJ5ju-0b2542550a.png",
       action: () => {},
-    },
+    }, */
     {
       id: "Folder",
       label: "Folder",
