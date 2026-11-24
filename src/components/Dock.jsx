@@ -235,7 +235,7 @@ export default function Dock() {
       id: "Keynote",
       label: "Keynote",
       icon: "https://s3-new.macosicons.com/macosicons/parse/Keynote__Apple_Creative_Studio__SlTcHVkQP5_lowResPng-aac0878b95.png",
-      comp: <Phone />,
+      comp: <Safari />,
     }, 
     {
       id: "Settings",

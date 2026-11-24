@@ -533,7 +533,7 @@ export default function Finder({ initialPath = "/icloud", windowId, maximized, i
     if (path === "/recents") return "Recents";
     if (path === "/shared") return "Shared";
     if (path === "/applications") return "Applications";
-    if (path === "/likhith-sp") return "Likhith SP";
+    if (path === "/likhith-sp") return "OwnCloud";
     if (path === "/mac-hd") return "macOS 27";
 
     // Handle deep paths
