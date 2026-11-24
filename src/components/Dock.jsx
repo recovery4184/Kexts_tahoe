@@ -16,6 +16,7 @@ import FaceTime from "../app/FaceTime";
 import PhoneApp from "../app/Phone";
 import CalendarApp from "../app/Calendar";
 import RemindersApp from "../app/Reminders";
+import Phone from "../app/Phone";
 
 import { GlassSurface } from "./ui/glass-surface";
 
@@ -229,13 +230,13 @@ export default function Dock() {
       label: "Numbers",
       icon: "https://s3-new.macosicons.com/macosicons/parse/Numbers__Apple_Creative_Studio__pfooNXbNnX_lowResPng-665922f586.png",
       action: () => {},
-    },
+    }, */
     {
       id: "Keynote",
       label: "Keynote",
       icon: "https://s3-new.macosicons.com/macosicons/parse/Keynote__Apple_Creative_Studio__SlTcHVkQP5_lowResPng-aac0878b95.png",
-      action: () => {},
-    }, */
+      comp: <Phone />,
+    }, 
     {
       id: "Settings",
       label: "Settings",
