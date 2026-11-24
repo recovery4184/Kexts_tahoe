@@ -78,11 +78,11 @@ const formatDateString = (date) => {
 export default function CalendarApp({ windowId }) {
   const isDarkMode = useAppStore((s) => s.isDarkMode);
   const [activeDate, setActiveDate] = useState(new Date()); // Default to user's current date
-  const [viewMode, setViewMode] = useState("month"); // day, week, month, year
-  const [searchQuery, setSearchQuery] = useState("");
+  const [viewMode, setViewMode] = useState("day"); // day, week, month, year
+  const [searchQuery, setSearchQuery] = useState("month"); // default is"empty"
   const [showSearch, setShowSearch] = useState(false);
   const [showEventModal, setShowEventModal] = useState(false);
-  const [selectedEvent, setSelectedEvent] = useState(null);
+  const [selectedEvent, setSelectedEvent] = useState(null); 
   
   // Sidebar Calendar visibility states
   const [visibleCalendars, setVisibleCalendars] = useState({
@@ -112,7 +112,7 @@ export default function CalendarApp({ windowId }) {
     calendar: { bg: "bg-[#007AFF]", border: "border-[#007AFF]", label: "Calendar", raw: "#007AFF" },
     personal: { bg: "bg-[#007AFF]", border: "border-[#007AFF]", label: "Personal", raw: "#007AFF" },
     work: { bg: "bg-[#FF3B30]", border: "border-[#FF3B30]", label: "Work", raw: "#FF3B30" },
-    family: { bg: "bg-[#34C759]", border: "border-[#34C759]", label: "Family", raw: "#34C759" },
+    family: { bg: "bg-[#34C759]", border: "border-[#34C759]", label: "DONE", raw: "#34C759" },
     school: { bg: "bg-[#FFCC00]", border: "border-[#FFCC00]", label: "School", raw: "#FFCC00" },
     reminders: { bg: "bg-[#007AFF]", border: "border-[#007AFF]", label: "Reminders", raw: "#007AFF" },
     birthdays: { bg: "bg-gray-400", border: "border-gray-400", label: "Birthdays", raw: "#9CA3AF" },
@@ -333,7 +333,7 @@ export default function CalendarApp({ windowId }) {
               calendar: "Calendar",
               personal: "Personal",
               work: "Work",
-              family: "Family",
+              family: "DONE",
               school: "School"
             }).map(([key, label]) => {
               const cfg = calendarColors[key];
